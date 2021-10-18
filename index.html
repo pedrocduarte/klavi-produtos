@@ -1,0 +1,27 @@
+<<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Reconhecimento de produtos Klavi - Beta 1</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container" style="text-align: center;height: 100vh;vertical-align: middle;">
+        <header>
+            <h1>Reconhecimento de produtos Klavi - Beta 1</h1>
+        </header>
+        <div>
+            <button type="button" class="btn btn-primary" style="padding-bottom: 1em;" onclick="init()">Iniciar reconhecimento</button>
+            <div id="webcam-container" style="padding-bottom: 1em;"></div>
+            <div id="label-container"></div>
+        </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+        <script src="tensor.js"></script>
+    </body>
+</html>>
